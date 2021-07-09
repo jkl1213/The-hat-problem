@@ -1,0 +1,23 @@
+import numpy as np
+
+prob = []
+n = 8
+for k in range(n+1):
+    arr = []
+    for j in range(n-k+1):
+        arr.append((-1)**j/np.math.factorial(j))
+    arr = np.array(arr)
+        
+    prob.append((1/np.math.factorial(k))*np.sum(arr))
+    
+#plot the probability distribution by the above formula
+import matplotlib.pyplot as plt
+x = np.arange(n+1)
+y = np.array(prob)
+plt.bar(x, y, color='grey');
+plt.title("Probability distribution of number of correct guesses in 12 people");
+
+#p-value P(X>=3)
+np.sum(y[3:])
+#mean
+np.dot(x,y)
