@@ -28,4 +28,11 @@ y = np.array(prob)
 plt.bar(x, y, color='grey');
 plt.title("Probability distribution of number of correct guesses in 12 people");
 ```
+<img width="551" alt="Screenshot 2021-07-26 at 7 18 11 PM" src="https://user-images.githubusercontent.com/79690350/126980592-95aee735-57ac-4670-9062-9221215bf6ff.png">
+
+### The p-value of getting at least 3 people right is therefore 8%
+
+```
+np.sum(y[3:])
+```
 
