@@ -1,9 +1,10 @@
 ### The-hat-problem
-I recently came across a youtube video trend popularized by Jubilee where a person is asked to match personal traits to n strangers. 
-Eg. Match 6 pets to 6 owners, match 12 star signs to 12 people, etc.
+I recently came across a youtube video trend where a person is asked to match personal traits to n strangers. 
+Eg. Match 6 pets to 6 owners, astrology trying to match 12 star signs to 12 people, etc.
 
-This problem is basically the same as the classic hat problem where n people throw their hats up in the air and the hats land randomly on the people's heads.
+This problem reminds me of the classic hat problem where n people throw their hats up in the air and the hats land randomly on the people's heads.
 Here I try to visualise the probability distribution and thereby compute the p-values of the distinguishing power of people by seeing how many they get right when they are asked to match n items to n strangers.
+<img width="602" alt="Screenshot 2021-07-26 at 7 21 06 PM" src="https://user-images.githubusercontent.com/79690350/126980901-bcfc5514-357f-4307-8e88-e5d0fa0a6226.png">
 
 ### For the 12 people case, we have the following probability density function
 ```
